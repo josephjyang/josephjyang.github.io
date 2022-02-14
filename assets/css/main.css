@@ -1834,6 +1834,18 @@ input, select, textarea {
 
 /* List */
 
+	.project-list {
+		font-size: 16px;
+		/* padding-left: 0; */
+	}
+
+	.bullet {
+		padding: 0;
+		text-align: left;
+		line-height: 1.7;
+		margin: 10px;
+	}
+
 	ul {
 		list-style: disc;
 		padding-left: 1em;
@@ -2033,7 +2045,8 @@ input, select, textarea {
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 1.5em;
+				font-weight: bold;
 			}
 
 /* Icons */
